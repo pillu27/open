@@ -3,7 +3,7 @@ open.chat.lastLoadedUser = 0; // The ID of the user whose messages was last load
 
 /* When the chat sidebar is open, other elements shoul be positioned in a way that it wouldn't overlap the sidebar or the other way around : */
 open.chat.alignOthers = function() {
-  if($(window).width() > 720 && $("#users-nav").is(":visible") ){
+  if($(window).width() > 7200 && $("#users-nav").is(":visible") ){
     //$(".content").css("left", "-5%");
   }
 };
